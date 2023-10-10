@@ -13,5 +13,6 @@ public class bankInterest {
         double totalAmount = initialAmount * Math.pow(1 + interestRate, years);
 
         System.out.println("Total money after " + years + " years: $" + totalAmount);
+
     }
 }
