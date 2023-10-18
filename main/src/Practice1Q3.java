@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Practice 1 Q3{
-   public class
+public class Practice1Q3 {
 
     void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
@@ -26,4 +25,5 @@ public class Practice 1 Q3{
             letter = "F";
             System.out.println("Your grade is an" + letter);
         }
+    }
 }
