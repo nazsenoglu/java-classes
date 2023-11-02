@@ -19,6 +19,7 @@ public class GradeCalculator {
             grade = "F";
         }
 
+        scanner.close();
         System.out.println("The corresponding letter grade is: " + grade);
     }
 }

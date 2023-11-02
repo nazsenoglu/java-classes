@@ -10,7 +10,7 @@ public class FactorialCalculator {
     for (int i = 2; i <= n; i++) {
       factorialResult *= i;
     }
-
+    scanner.close();
     System.out.println("The factorial of " + n + " is " + factorialResult);
   }
 }

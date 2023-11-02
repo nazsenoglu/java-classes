@@ -26,5 +26,6 @@ public class Exam2 {
         } else {
             System.out.println("World is in balance with evens and odds.");
         }
+        scanner.close();
     }
 }

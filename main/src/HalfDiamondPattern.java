@@ -19,5 +19,6 @@ public class HalfDiamondPattern {
             }
             System.out.println();
         }
+        input.close();
     }
 }

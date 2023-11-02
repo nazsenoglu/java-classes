@@ -12,6 +12,7 @@ public class SumCalculator {
             sumResult += i;
             i++;
         }
+        scanner.close();
 
         System.out.println("The sum of all positive integers less than or equal to " + n + " is " + sumResult);
     }

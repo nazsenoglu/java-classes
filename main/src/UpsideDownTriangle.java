@@ -15,6 +15,7 @@ public class UpsideDownTriangle {
             }
             System.out.println();
         }
+        scanner.close();
 
     }
 }

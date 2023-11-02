@@ -25,5 +25,6 @@ public class Practice1Q3 {
             letter = "F";
             System.out.println("Your grade is an" + letter);
         }
+        userInput.close();
     }
 }

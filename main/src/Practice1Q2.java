@@ -12,6 +12,7 @@ public class Practice1Q2 {
             result += i;
             i++;
         }
+        input.close();
         System.out.println("The sum is:" + result);
     }
 }

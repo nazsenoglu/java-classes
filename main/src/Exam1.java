@@ -15,7 +15,7 @@ public class Exam1 {
         for (int i = 1; i <= exponent; i++) {
             powerResult *= base;
         }
-
         System.out.println("Result is " + powerResult);
+        scanner.close();
     }
 }

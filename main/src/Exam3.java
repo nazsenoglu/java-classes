@@ -25,6 +25,7 @@ public class Exam3 {
       }
 
     } while (number != 0);
+    scanner.close();
 
     System.out.println("Program stops");
   }

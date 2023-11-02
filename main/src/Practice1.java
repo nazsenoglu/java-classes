@@ -17,6 +17,7 @@ public class Practice1 {
         for (int i = 1; i < myNum; i++) {
             result = result * i;
         }
+        input.close();
         System.out.println("The factorial of" + myNum + ":" + result);
     }
 }

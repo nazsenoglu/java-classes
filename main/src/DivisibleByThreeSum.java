@@ -15,6 +15,7 @@ public class DivisibleByThreeSum {
             }
         } while (number != 0);
 
+        scanner.close();
         System.out.println("Sum of numbers divisible by 3: " + sum);
     }
 }
