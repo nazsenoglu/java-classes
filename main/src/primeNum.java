@@ -13,25 +13,24 @@ public class primeNum {
             int num = scanner.nextInt();
             userList[i] = num;
         }
-
-        for (int num : userList) {
-            if (isPrime(num)) {
-                System.out.println(num + " is a prime number.");
+        for (int i = 0; i < size; i++) {
+            if (isPrime(userList[i])) {
+                System.out.println(userList[i] + "is a prime number");
             } else {
-                System.out.println(num + " is not a prime number.");
+                System.out.println(userList[i] + "is not a prime number");
             }
+
         }
     }
 
     public static boolean isPrime(int number) {
-        if (number <= 1) {
-            return false;
-        }
-        for (int i = 2; i <= Math.sqrt(number); i++) {
+        boolean isPrime = true;
+        for (int i = 2; i <= number / 2; i++) {
             if (number % i == 0) {
-                return false;
+                isPrime = false;
             }
         }
-        return true;
+
+        return isPrime;
     }
 }
